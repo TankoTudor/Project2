@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.Meniu">
+  <grid id="27dc6" binding="Mypanel" layout-manager="GridLayoutManager" row-count="17" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="7" y="4" width="740" height="564"/>
+    </constraints>
+    <properties>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="19db4" class="javax.swing.JButton" binding="StartShoping">
+        <constraints>
+          <grid row="1" column="4" row-span="9" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="StartShopping"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="36460" class="javax.swing.JButton" binding="adaugareCosButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="6" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Adaugare Cos"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="adaa1" class="javax.swing.JButton" binding="verificareSumaButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Verificare Suma"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="cac32" class="javax.swing.JButton" binding="verificareStockButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Verificare Stock"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="90f1d" class="javax.swing.JButton" binding="stergereElementButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stergere Element"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="4fe7c" class="javax.swing.JButton" binding="finalizareComandaButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="6" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Finalizare Comanda"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="203ea" class="javax.swing.JButton" binding="listaProduseButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lista Produse"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="be2dd" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="e6dab" class="javax.swing.JLabel" binding="numeprodus">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nume produs"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="fb562" class="javax.swing.JLabel" binding="cantitate">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cantitate"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="ede65" class="javax.swing.JTextField" binding="cant">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="7fa0b" class="javax.swing.JButton" binding="adaugaInCosButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Adaugare in cos"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="69437" class="javax.swing.JTextField" binding="cod">
+        <constraints>
+          <grid row="16" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="305a6" class="javax.swing.JLabel" binding="codprodus">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cod Produs"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="c1e21" class="javax.swing.JLabel" binding="adaugatlabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+          <text value="Produsul a fost adaugat in cost"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="7dc7f" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="ada2e" class="javax.swing.JLabel" binding="pret">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pret"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="baa0" class="javax.swing.JLabel" binding="verifsumlabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="8187c" class="javax.swing.JButton" binding="sumverifButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="sumverif"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="d3d59" class="javax.swing.JButton" binding="backMeniuButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BackMeniu"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="1bd39" class="javax.swing.JLabel" binding="listaprod1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="I7 Procesor 30$ 25buc code 1"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="4f867" class="javax.swing.JLabel" binding="listaprod2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="i5 Procesor 25$ 40buc code 2"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="903ea" class="javax.swing.JLabel" binding="listaprod3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pentium Procesor 20$ 20buc code 3"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="3d5ee" class="javax.swing.JButton" binding="backmeniu2Button" default-binding="true">
+        <constraints>
+          <grid row="16" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Backmeniu"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="42395" class="javax.swing.JButton" binding="backMeniuButton1" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BackMeniu"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="3e87f" class="javax.swing.JButton" binding="verificareButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="verificare"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="bc6a6" class="javax.swing.JLabel" binding="verificarestocklabel">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="6fd26" class="javax.swing.JTextField" binding="codeverif">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="a862e" class="javax.swing.JLabel" binding="codelabelverif">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Introduceticodul"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="200f8" class="javax.swing.JButton" binding="backMeniuButton2" default-binding="true">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BackMeniu"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="9ec97" class="javax.swing.JTextField" binding="stergereprodus">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="751e9" class="javax.swing.JLabel" binding="stergerelabel">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ce produs doriti sa stergeti?"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="e47e7" class="javax.swing.JButton" binding="stergereprodusButton" default-binding="true">
+        <constraints>
+          <grid row="14" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stergereprodus"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="db210" class="javax.swing.JLabel" binding="stergereprodus2">
+        <constraints>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Produsul a fost sters"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="d7de9" class="javax.swing.JButton" binding="backmeniu4Button">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Backmeniu"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="fa42a" class="javax.swing.JLabel" binding="labelulfinal">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Doriti sa finalizati Comanda?"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="554c9" class="javax.swing.JButton" binding="nuButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nu"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="ed3c1" class="javax.swing.JButton" binding="daButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Da"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="3f9fe" class="javax.swing.JLabel" binding="sumafinalalabel">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
